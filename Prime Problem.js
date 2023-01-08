@@ -1,13 +1,15 @@
-let number=5;
-let factor=0;
-let count=0;
-for(let i=0;i<number;i++){
-    if(number%i==0){
-        count++
-    }
-}
-if(factor==2){
-    console.log(number,"is a prime number")
-}else{
-    console.log(number,"is not a prime number")
+{
+    let num=5
+    boolean = true;
+        for (let i = 2 ;i< num ;i++){
+            if (num % i == 0){
+                boolean = false;
+                break;}
+        }
+        if ( boolean == true){
+            console.log("Yes");
+        }
+        else {
+            console.log("No");
+        }
 }
